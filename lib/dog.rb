@@ -4,7 +4,10 @@ def name= (dog_name)
   def name= "fido"
   end 
   
-  def name (fido)
+  def name ()
     this_dogs_name
+    lassie = dog.name 
+    lassie.name= ("lassie")
+    #=> "lassie"
   end
 end
